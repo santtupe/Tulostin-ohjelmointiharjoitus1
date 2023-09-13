@@ -9,12 +9,15 @@ public class PrintChallenge {
         int Luku2;
         Luku1 = 5;
         Luku2 = 2;
+        double tulo;
+        tulo = Luku1 * Luku2;
 
 		System.out.println("Hei olen Tulostin-ohjelma");
 		System.out.print("Ohjelman tekijä: ");
 		System.out.println(tekija);
         System.out.println("Luku1-muuttujan arvo on " + Luku1);
         System.out.println("Luku2-muuttujan arvo on " + Luku2);
+        System.out.println(Luku1 + "*" + Luku2 + "=" + tulo);
 
 	}
 
