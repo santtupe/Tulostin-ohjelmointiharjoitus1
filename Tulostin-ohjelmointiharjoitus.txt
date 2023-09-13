@@ -5,9 +5,16 @@ public class PrintChallenge {
 
 		String tekija;
 		tekija = "Santtu";
+        int Luku1;
+        int Luku2;
+        Luku1 = 5;
+        Luku2 = 2;
+
 		System.out.println("Hei olen Tulostin-ohjelma");
 		System.out.print("Ohjelman tekijä: ");
 		System.out.println(tekija);
+        System.out.println("Luku1-muuttujan arvo on " + Luku1);
+        System.out.println("Luku2-muuttujan arvo on " + Luku2);
 
 	}
 
