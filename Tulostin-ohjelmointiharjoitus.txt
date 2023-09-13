@@ -1,0 +1,14 @@
+
+public class PrintChallenge {
+
+	public static void main(String[] args) {
+
+		String tekija;
+		tekija = "Santtu";
+		System.out.println("Hei olen Tulostin-ohjelma");
+		System.out.print("Ohjelman tekijä: ");
+		System.out.println(tekija);
+
+	}
+
+}
